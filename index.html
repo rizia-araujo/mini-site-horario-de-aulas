@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>✦ Horário de Aulas ✦</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@300;400;600;700&family=Satisfy&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Floating decorative elements -->
+  <div class="deco-bg" aria-hidden="true">
+    <span class="star s1">✦</span>
+    <span class="star s2">✿</span>
+    <span class="star s3">✦</span>
+    <span class="star s4">♡</span>
+    <span class="star s5">✿</span>
+    <span class="star s6">✦</span>
+    <span class="star s7">♡</span>
+    <span class="star s8">✿</span>
+  </div>
+
+  <div class="wrapper">
+
+    <!-- Header -->
+    <header class="header">
+      <div class="header-deco left">
+        <img src="kuromi.svg" alt="Kuromi" class="char-img" id="kuromi-img" />
+      </div>
+
+      <div class="header-center">
+        <p class="header-sub">✦ meu cantinho de estudos ✦</p>
+        <h1 class="header-title">Horário de Aulas</h1>
+        <p class="header-semester" id="semester-label">Carregando...</p>
+      </div>
+
+      <div class="header-deco right">
+        <img src="mymelody.svg" alt="My Melody" class="char-img" id="melody-img" />
+      </div>
+    </header>
+
+    <!-- Today highlight -->
+    <div class="today-banner" id="today-banner" aria-live="polite">
+      <span class="today-icon">🌸</span>
+      <span class="today-text" id="today-text">Verificando o dia de hoje...</span>
+      <span class="today-icon">🌸</span>
+    </div>
+
+    <!-- Schedule Grid -->
+    <main class="schedule-grid" id="schedule-grid">
+      <!-- Cards são gerados pelo JS -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>feito com <span class="heart">♡</span> para sobreviver ao semestre</p>
+      <p class="footer-sub">✦ kuromi & my melody aprovam ✦</p>
+    </footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
